@@ -1,0 +1,83 @@
+html, body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    list-style-type: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* COMMON CLASSES */
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+/****/
+.justify-center {
+    justify-content: center;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-evenly {
+    justify-content: space-evenly;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+/* COMMON STYLE */
+
+:root {
+    background-color: black;
+    font-size: 16px;  /* pour utiliser les rem / em */
+}
+
+body {
+    margin: auto;
+}
+
+.page {
+    height: 844px;
+    width: 390px;
+    background-color: #331B4B;
+}
+    
+.logo {
+    height: 300px;
+    width: 300px;
+    border: 0 #FFFADF solid;
+    border-radius: 100%;
+    background-color: #FFFADF;
+}
+
+.title {
+    height: 196px;
+    width: 176px;
+}
+
+h1 {
+    font-family: 'lobster';
+    font-size: 64px;
+    font-weight: 400;
+}
